@@ -4,7 +4,7 @@ A composer docker container that has [hirak's prestissimo parallel downloader](h
 Usage:
 
 ```shell
-docker run --rm -v $(pwd):/app" composer:latest [COMMAND]
+docker run --rm -v $(pwd):/app" arthurhnl/composer-prestissimo:latest [COMMAND]
 ```
 
 Note that I am in no way affiliated with Composer nor with hirak's prestissimo parallel downloader.
